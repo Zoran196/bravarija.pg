@@ -121,4 +121,26 @@ section, .services, .about, .contact {
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
+}/* Stil za sekciju i mrežu galerije */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Automatski prilagođava broj kolona */
+    gap: 15px; /* Razmak između slika */
+    padding: 10px 0;
+}
+
+/* Stil za svaku pojedinačnu sliku u galeriji */
+.gallery img {
+    width: 100%;
+    height: 220px; /* Jednaka visina za sve slike */
+    object-fit: cover; /* Slike se savršeno uklapaju bez razvlačenja */
+    border-radius: 10px; /* Zaobljeni uglovi */
+    border: 2px solid #ffcc00; /* Zlatno-žuti okvir */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efekat kada se mišem/prstom pređe preko slike */
+.gallery img:hover {
+    transform: scale(1.03); /* Lagano uvećanje */
+    box-shadow: 0 5px 15px rgba(255, 204, 0, 0.4);
 }
