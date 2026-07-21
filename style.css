@@ -5,10 +5,26 @@ box-sizing:border-box;
 font-family:Arial,sans-serif;
 }
 
-body{
-background:#111;
-color:#fff;
-line-height:1.6;
+body{body {
+    background-color: #111;
+    /* Učitavanje loga 1 u pozadinu */
+    background-image: linear-gradient(rgba(17, 17, 17, 0.85), rgba(17, 17, 17, 0.85)), url('images/logo1.png');
+    
+    /* Fiksira pozadinu da se ne pomjera dok skroluješ */
+    background-attachment: fixed;
+    
+    /* Postavlja logo u sam centar ekrana */
+    background-position: center;
+    
+    /* Sprečava ponavljanje loga */
+    background-repeat: no-repeat;
+    
+    /* Prilagođava veličinu loga ekranu */
+    background-size: 500px auto; /* ili 'contain' ako želiš da prekrije više prostora */
+    
+    color: #fff;
+    line-height: 1.6;
+}
 }
 
 header{
