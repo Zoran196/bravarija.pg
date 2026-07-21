@@ -5,7 +5,7 @@ box-sizing:border-box;
 font-family:Arial,sans-serif;
 }
 
-body{body {
+body {
     background-color: #111;
     /* Učitavanje loga 1 u pozadinu */
     background-image: linear-gradient(rgba(17, 17, 17, 0.85), rgba(17, 17, 17, 0.85)), url('images/logo1.png');
