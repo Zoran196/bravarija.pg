@@ -144,3 +144,19 @@ section, .services, .about, .contact {
     transform: scale(1.03); /* Lagano uvećanje */
     box-shadow: 0 5px 15px rgba(255, 204, 0, 0.4);
 }
+/* Pravi sav tekst unutar kartica i sekcija svijetlim (bijelim) */
+p, span, li, a {
+    color: #ffffff !important;
+}
+
+/* Podnaslov pri vrhu (Metal po mjeri • Podgorica) */
+header p {
+    color: #ffcc00 !important; /* Zlatno-žuta boja */
+    font-weight: bold;
+}
+
+/* Tekst u glavnom uvodnom dijelu */
+.hero p, section p {
+    color: #ffffff !important;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8); /* Dodaje sjenku iza teksta radi lakšeg čitanja */
+}
